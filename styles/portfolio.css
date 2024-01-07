@@ -163,6 +163,7 @@ margin-top: 0px;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px; /* 175% */
+    margin-bottom: 75px;
 }
 .resume-item-title{
     font-size: 25px;
@@ -173,4 +174,29 @@ font-weight: 700;
 }
 .download-cv{
     text-align: center;
+}
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 75px;
+    gap: 117px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"],.contact textarea{
+    border-radius: 5px;
+background: #FFF;
+margin-bottom: 25px;
+display: block;
+border: 0px;
+font-size: 16px;
+color:  #757575;
+font-weight: 400;
+line-height: 28px; /* 175% */
+padding: 18px 25px;
+}
+.social-links{
+    margin-right: 25px;
 }
